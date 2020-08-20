@@ -1,5 +1,5 @@
 Package: adaR
-Title: The Australian Data Archives R package for curation and reporting.
+Title: The Australian Data Archive's R package for curation and reporting.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
