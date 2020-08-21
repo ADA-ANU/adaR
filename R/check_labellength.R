@@ -1,8 +1,8 @@
 check_labellength <- function(label) {
-  #Before processing, check if passing a character vector
-  if(!is_character(label)) {
+  # Before processing, check if passing a character vector
+  if (!is_character(label)) {
     print("Error: 'label' is not a character vector.")
-  } else { #Check char
+  } else { # Check char
     check <- tibble(label) %>%
       rowwise() %>%
       mutate(length = nchar(label)) %>%
